@@ -1,0 +1,8 @@
+$colorSite: black;
+$colorHover: #C352D6;
+$widthSite: 1800px;
+
+
+@media(max-width:425px){
+  $widthSite: 320px;
+}

@@ -1,0 +1,22 @@
+@mixin container {
+  padding-left: calc(50% - $widthSite / 2);
+  padding-right: calc(50% - $widthSite / 2);
+}
+
+%siteFontMain {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+}
+
+%siteFontOther {
+  font-family: "NAMU";
+}
+
+%siteFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
