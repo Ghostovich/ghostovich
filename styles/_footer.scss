@@ -82,8 +82,7 @@
       @extend %siteFlex;
       flex-direction: column;
       gap: 60px;
-      align-items:  flex-start;
-
+      align-items: flex-start;
     }
     &__social {
       @extend %siteFlex;
@@ -96,21 +95,21 @@
         border: 1px solid var(--base-light-grey, #e6e6e6);
       }
     }
-    &__low__visible{
-    @extend %siteFlex;
-    color: $colorSite;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    gap:20px;
-    & svg{
-      transition: 0.3s;
-      &:hover{
-        opacity:0.7;
-        cursor: pointer;
+    &__low__visible {
+      @extend %siteFlex;
+      color: $colorSite;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      gap: 20px;
+      & svg {
+        transition: 0.3s;
+        &:hover {
+          opacity: 0.7;
+          cursor: pointer;
+        }
       }
-    }
-      &__block{
+      &__block {
         @extend %siteFlex;
         gap: 20px;
       }
@@ -234,6 +233,37 @@
         opacity: 0.7;
         cursor: pointer;
       }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    &__subscribe {
+      flex-direction: column;
+      &__text {
+        &__heading {
+          font-size: 28px;
+        }
+        &__discription {
+          font-size: 18px;
+          width: auto;
+        }
+      }
+      &__input__email {
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      &__button {
+        margin-top: 22px;
+        width: auto;
+        height: auto;
+      }
+    }
+    &__nav {
+      flex-direction: column;
     }
   }
 }
