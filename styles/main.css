@@ -362,7 +362,10 @@
 
 @media (max-width: 425px) {
   .homepage__title__name {
+    padding-left: 30px;
+    padding-top: 30px;
     width: 320px;
+    font-size: 0;
   }
   .homepage__title__name__1 {
     font-size: 30px;
@@ -381,23 +384,31 @@
     height: auto;
   }
   .homepage__title__place {
+    padding-left: 30px;
     font-size: 18px;
+    width: auto;
+    position: initial;
+    padding-top: 40px;
   }
   .homepage__news {
     display: none;
   }
   .homepage__afisha {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
   .homepage__afisha__heading {
     font-size: 28px;
     padding-bottom: 30px;
+    padding-left: 30px;
   }
   .homepage__afisha__months {
     overflow: hidden;
+    padding-left: 30px;
   }
   .homepage__afisha__filters {
     overflow: hidden;
+    padding-left: 30px;
   }
   .homepage__afisha__events {
     display: flex;

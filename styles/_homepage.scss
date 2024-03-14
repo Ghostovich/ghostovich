@@ -290,7 +290,10 @@
   .homepage{
     &__title{
       &__name{
+        padding-left: 30px;
+        padding-top: 30px;
         width: 320px;
+        font-size: 0;
         &__1{
           font-size: 30px;
           margin-right: 0;
@@ -312,7 +315,12 @@
         }
       }
       &__place{
+        padding-left: 30px;
+
         font-size: 18px;
+        width: auto;
+        position: initial;
+        padding-top: 40px;
       }
     }
     &__news{
@@ -320,15 +328,22 @@
     }
     &__afisha{
       padding-bottom: 50px;
+      padding-top: 50px;  
       &__heading{
         font-size: 28px;
         padding-bottom: 30px;
+      padding-left: 30px;
+
       }
       &__months{
         overflow: hidden;
+      padding-left: 30px;
+
       }
       &__filters{
         overflow: hidden;
+      padding-left: 30px;
+
       }
       &__events{
         display: flex;
