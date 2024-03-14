@@ -73,3 +73,21 @@
   }
 }
 
+@media (max-width: 425px) {
+  .header{
+    flex-direction: column-reverse;
+  }
+  .headerLogo{
+    flex-direction: column;
+  }
+  .header__nav {
+    display: none;
+  }
+  .visuallyImpairedVersion{
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+    &__text{
+      text-align: left;
+    }
+  }
+}

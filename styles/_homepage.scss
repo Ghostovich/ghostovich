@@ -286,3 +286,54 @@
 
 
 
+@media (max-width: 425px) {
+  .homepage{
+    &__title{
+      &__name{
+        width: 320px;
+        &__1{
+          font-size: 30px;
+          margin-right: 0;
+          
+        }
+        &__2{
+          border: none;
+          font-size: 30px;
+          margin-right: 0;
+          width: auto;
+          height: auto;
+
+        }
+        &__3{
+          border: none;
+          font-size: 30px;
+          height: auto;
+
+        }
+      }
+      &__place{
+        font-size: 18px;
+      }
+    }
+    &__news{
+      display: none;
+    }
+    &__afisha{
+      &__heading{
+        font-size: 28px;
+        padding-bottom: 30px;
+      }
+      &__months{
+        overflow: hidden;
+      }
+      &__filters{
+        overflow: hidden;
+      }
+      &__events{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      }
+    }
+  }
+}
