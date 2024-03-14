@@ -319,6 +319,7 @@
       display: none;
     }
     &__afisha{
+      padding-bottom: 50px;
       &__heading{
         font-size: 28px;
         padding-bottom: 30px;
@@ -333,6 +334,15 @@
         display: flex;
         flex-direction: column;
         width: auto;
+        
+      }
+      &__event{
+        &__img img{
+          width: 402px;
+        }
+        &__buy{
+          width: auto;
+        }
       }
     }
   }

@@ -386,6 +386,9 @@
   .homepage__news {
     display: none;
   }
+  .homepage__afisha {
+    padding-bottom: 50px;
+  }
   .homepage__afisha__heading {
     font-size: 28px;
     padding-bottom: 30px;
@@ -399,6 +402,12 @@
   .homepage__afisha__events {
     display: flex;
     flex-direction: column;
+    width: auto;
+  }
+  .homepage__afisha__event__img img {
+    width: 402px;
+  }
+  .homepage__afisha__event__buy {
     width: auto;
   }
 }
@@ -646,6 +655,28 @@
     height: auto;
   }
   .footer__nav {
+    padding-left: 30px;
+    flex-direction: column;
+  }
+  .footer__nav__afisha {
+    padding-top: 30px;
+  }
+  .footer__nav__kino {
+    padding-top: 30px;
+  }
+  .footer__nav__about {
+    padding-top: 30px;
+  }
+  .footer__nav__info {
+    padding-top: 30px;
+  }
+  .footer__label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .footer__production {
     flex-direction: column;
   }
 }
@@ -666,7 +697,6 @@
 }
 
 .body {
-  overflow: hidden;
   color: black;
 }
 

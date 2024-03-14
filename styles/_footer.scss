@@ -263,6 +263,33 @@
       }
     }
     &__nav {
+      padding-left: 30px;
+      flex-direction: column;
+      &__afisha{
+        padding-top: 30px;
+      }
+      &__kino{
+        padding-top: 30px;
+
+      }
+      &__about{
+        padding-top: 30px;
+
+      }
+      &__info{
+        padding-top: 30px;
+
+      }
+    }
+
+    &__label{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      padding-left: 30px;
+    }
+
+    &__production{
       flex-direction: column;
     }
   }
